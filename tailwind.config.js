@@ -7,11 +7,11 @@ module.exports = {
       colors: {
         DMPrimary: "#0f0f10",
         LMPrimary: "",
-        DMSecondary: "#03a07b",
+        DMSecondary: "#032E14",
         LMSecondary: "",
         DMText: "#f4f2f3",
         LMText: "",
-        DMTextHover: "",
+        DMTextHover: "#03A07B",
         LMTextHover: "",
       },
       screens: {
@@ -24,12 +24,13 @@ module.exports = {
         lg: { max: "1023px" },
         // => @media (max-width: 1023px) { ... }
 
-        md: { max: "767px" },
+        md: { min: "639px" },
         // => @media (max-width: 767px) { ... }
 
         sm: { max: "639px" },
         // => @media (max-width: 639px) { ... }
       },
+      
     },
   },
   variants: {
